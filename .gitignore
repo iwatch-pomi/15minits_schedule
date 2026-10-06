@@ -1,0 +1,15 @@
+# Xcode
+xcuserdata/
+DerivedData/
+build/
+*.xcuserstate
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+desktop.ini
