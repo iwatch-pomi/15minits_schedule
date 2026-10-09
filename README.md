@@ -38,7 +38,7 @@ docs/XCODE_CLOUD_TESTFLIGHT_GUIDE.md   Windows だけで TestFlight まで行く
 Xcode Cloud でアーカイブし、TestFlight で iPhone にインストールします。
 詳しい手順は **[docs/XCODE_CLOUD_TESTFLIGHT_GUIDE.md](docs/XCODE_CLOUD_TESTFLIGHT_GUIDE.md)** を参照してください。
 
-最初に必要な変更（GitHub の Web 上で編集可）：
+署名設定（`Schedule15.xcodeproj/project.pbxproj`）：
 
-- `Schedule15.xcodeproj/project.pbxproj` の `DEVELOPMENT_TEAM = "";` に自分の Team ID を入れる（2 か所）
-- 必要なら `PRODUCT_BUNDLE_IDENTIFIER = com.iwatch.schedule15;` を自分の Bundle ID に変える（2 か所）
+- `DEVELOPMENT_TEAM = 599438C56B;`（設定済み）
+- `PRODUCT_BUNDLE_IDENTIFIER = com.iwatch.schedule15;`（Apple Developer で登録した Bundle ID と一致させること。変える場合は 2 か所）
